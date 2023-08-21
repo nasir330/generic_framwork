@@ -1,0 +1,61 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+mat-card{
+  width:60%;
+  padding:20px;
+  margin-bottom: 10px;
+}
+mat-card-subtitle{
+  font-weight: bold;
+  font-size: 16px;
+  margin-top:10px;
+}
+.conetent mat-card{
+  width:100%;
+  background-color: lightgray;
+}
+.badge{
+  margin-right:5%; 
+ }
+ p{
+  margin-left:5%;
+ }
+ .danger-text{
+  margin-left: 5%;
+  color:red;
+}
+
+/* mat-card-content{
+  margin-top: 5px;
+} */
+.conetnt{   
+  display:inline-block;
+  margin-bottom: 10px;
+}
+  mat-form-field{
+    width:100%;
+  }
+  .form-input mat-form-field{
+    margin-top:15px;
+    margin-bottom:15px;
+    width:30%;
+    margin-left: 5px;
+  }
+  .check-Agree{
+    font-size:12px;
+  }
+  mat-card-actions{
+    justify-content: center;
+      display: flex;
+  }
+  div{
+    margin-top: -15px;
+  }
+  button{
+    margin-bottom: 10px;
+  }
+  

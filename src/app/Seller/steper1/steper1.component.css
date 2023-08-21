@@ -1,0 +1,81 @@
+mat-form-field{
+    margin-left:10px;
+}
+div{
+  width:100%;
+}
+h4{
+  font-weight: bold;  
+}
+.conetnt mat-card{
+    width:50%;
+    background-color: lightgray;
+}
+mat-card{
+  width:60%;
+  padding:20px;
+  margin-bottom: 10px;
+  float:left
+}
+#countryField{
+  width:60%;
+}
+#cob{
+  width:27%
+}
+#dob{
+  width:20%;
+}
+.conetnt{   
+    display:inline-block;
+    margin-bottom: 10px;
+  }
+  form{
+    margin-top:20px;
+  }
+  button{
+    margin-left:5px;
+  }
+/* checkbox styles */
+  .example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
+  .data-header{
+    width:30%;
+    background-color: lightgray;
+    float:left;
+  }
+  .data-content{
+    margin-left: 2%;
+    width:68%;   
+    float:left;
+  }
+  .faq{    
+    width:40%;   
+    float:left;
+  }  
+  .faq mat-list-item{   
+    font-size:14px;
+  }
+  
+  /* mat-list-item{
+    margin-top:10px;
+  } */
+  mat-list-item .proofDocument{   
+    width:60%;
+  }
+  mat-card-actions{
+    justify-content: center;
+      display: flex;
+  }

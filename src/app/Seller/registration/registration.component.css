@@ -1,0 +1,37 @@
+
+mat-grid-tile {
+    background: lightblue;
+  }
+  .container{
+    padding:20px;
+  }
+h1{
+  font-size: 48px;
+}  
+h4{
+  font-weight: bold;
+}
+
+.badge{
+ margin-left:5%; 
+}
+p,h4{
+  margin-left: 5%;
+}
+mat-card-content{
+  width:60%;
+}
+mat-card-content span{
+  margin-top: 50px;
+}
+.conetent{
+  margin-left:50px;  
+  display:inline-block;
+}
+mat-card-actions{
+  justify-content: center;
+    display: flex;
+}
+mat-card-actions button{
+  width:30%;
+}

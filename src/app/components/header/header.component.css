@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* mat-toolbar {
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .sticky-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  button{
+    margin-left:5px;
+  }
+  img{
+    width:120px;
+   
+  }
+.logo{
+  width:25%;
+  margin-top:10px;
+}
+.menu{
+  width:50%;
+}
+.login-register{
+  width:25%;
+  text-align: right;
+}

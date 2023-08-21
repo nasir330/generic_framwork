@@ -1,0 +1,54 @@
+<mat-card>
+    <mat-card-title>Register</mat-card-title>
+    <mat-card-content>
+      <form>
+        <div class="row">
+          <!-- First Row: Username and Password -->
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="username" name="username" required>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" [(ngModel)]="password" name="password" required>
+          </mat-form-field>
+        </div>
+  
+        <div class="row">
+          <!-- Second Row: DOB and Phone Number -->
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Date of Birth</mat-label>
+            <input matInput type="date" [(ngModel)]="dob" name="dob">
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Phone Number</mat-label>
+            <input matInput [(ngModel)]="phoneNumber" name="phoneNumber">
+          </mat-form-field>
+        </div>
+  
+        <div class="row">
+          <!-- Third Row: Gender and Sex -->
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Gender</mat-label>
+            <input matInput [(ngModel)]="gender" name="gender" required>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill" class="col">
+            <mat-label>Sex</mat-label>
+            <input matInput [(ngModel)]="sex" name="sex">
+          </mat-form-field>
+        </div>
+  
+        <!-- Fourth Row: Address -->
+        <mat-form-field appearance="fill">
+          <mat-label>Address (UK Format)</mat-label>
+          <textarea matInput [(ngModel)]="address" name="address"></textarea>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" (click)="onRegisterSubmit()">Register</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

@@ -1,0 +1,47 @@
+.mat-header-row {
+    background-color: blue; /* Set header background color */
+    color: rgb(9, 1, 1); /* Set header text color */
+  }
+  
+  /* Style the data rows */
+  .mat-row {
+    color: rgb(232, 241, 201); /* Set data row text color */
+  }
+  
+  /* Style the sorting arrows in the header */
+  .mat-sort-header-arrow {
+    color: white; /* Set sorting arrow color */
+  }
+
+  /* user-list.component.css */
+
+/* Set the maximum width of the table on larger screens */
+table {
+    max-width: 900px; /* Adjust this value as needed */
+    width: 80%; /* Ensure the table takes full width */
+    margin: 20 auto; /* Center the table horizontally */
+  }
+  
+  /* Set the table width to 100% on smaller screens */
+  @media (max-width: 600px) {
+    table {
+      max-width: 100%; /* Table takes full width on smaller screens */
+    }
+  }
+
+  /* user-list.component.scss */
+.search-field {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+
+  .search-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 15vh; /* Set the container height to full viewport height */
+  }
+  
