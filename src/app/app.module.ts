@@ -30,7 +30,6 @@ import {STEPPER_GLOBAL_OPTIONS} from '@angular/cdk/stepper';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatDividerModule} from '@angular/material/divider';
-import { BusinessInformationComponent } from './Seller/business-information/business-information.component';
 import {MatSelectModule} from '@angular/material/select';
 import { Steper1Component } from './Seller/steper1/steper1.component';
 import { Steper2Component } from './Seller/steper2/steper2.component';
@@ -48,8 +47,7 @@ import {MatListModule} from '@angular/material/list';
     LoginComponent,
     HomeComponent,
     FooterComponent,
-    RegistrationComponent,
-    BusinessInformationComponent,
+    RegistrationComponent,    
     Steper1Component,
     Steper2Component,
     Steper3Component

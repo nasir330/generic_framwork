@@ -1,0 +1,30 @@
+export interface FormData {
+  businessLocation: string;
+  businessType: string;
+  firstName: string;
+  middleName: string;
+  lastName: string;
+  phoneNumber: string;
+  cityzenship: string;
+  countryBirth: string;
+  day: string;
+  month: string;
+  year: string;
+  country: string;
+  zipCode: string;
+  building: string;
+  houseNo: string;
+  cityTown: string;
+  locality: string;
+  cardNumber: string;
+  expMonth: string;
+  expYear: string;
+  cardHolder: string;
+  storeName: string;
+  universalProduct: string;
+  desersity: string;
+  manufacturer: string;
+  frontSide: string;
+  backSide: string;
+  proofAddress: string;
+  }

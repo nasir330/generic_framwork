@@ -1,3 +1,13 @@
+mat-card{
+  width:70%;
+  padding:20px;
+  margin-bottom: 10px;
+  float:left
+}
+mat-card-actions{
+  justify-content: center;
+    display: flex;
+}
 mat-form-field{
     margin-left:10px;
 }
@@ -11,14 +21,12 @@ h4{
     width:50%;
     background-color: lightgray;
 }
-mat-card{
-  width:60%;
-  padding:20px;
-  margin-bottom: 10px;
-  float:left
-}
+
+/* #phoneNumberField{
+  width:40%;
+} */
 #countryField{
-  width:60%;
+  width:50%;
 }
 #cob{
   width:27%
@@ -62,7 +70,7 @@ mat-card{
     float:left;
   }
   .faq{    
-    width:40%;   
+    width:30%;   
     float:left;
   }  
   .faq mat-list-item{   

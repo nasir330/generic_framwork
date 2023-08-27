@@ -5,7 +5,6 @@ import { UserListComponent } from './components/authentication/user-list/user-li
 import { LoginComponent } from './components/authentication/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { RegistrationComponent } from './Seller/registration/registration.component';
-import { BusinessInformationComponent } from './Seller/business-information/business-information.component';
 import { Steper1Component } from './Seller/steper1/steper1.component';
 
 
@@ -16,9 +15,8 @@ import { Steper1Component } from './Seller/steper1/steper1.component';
     { path: 'users', component: UserListComponent },
     { path: 'login', component: LoginComponent },
     { path: 'home', component: HomeComponent },
-    {path: 'seller/register', component: RegistrationComponent},  
-    {path: 'seller/business-information', component: BusinessInformationComponent},  
-    {path: 'seller/business-information-step1', component: Steper1Component},  
+    {path: 'seller/register', component: RegistrationComponent},
+    {path: 'seller/business-information', component: Steper1Component},  
     { path: '', redirectTo: 'login', pathMatch: 'full' }, // Redirect to the login page if the URL is empty
     { path: '**', redirectTo: 'login', pathMatch: 'full' }, // Redirect to the login page for any other unknown URLs
     // Add more routes as needed...
